@@ -16,7 +16,10 @@
     Template: genesis
 */
 @import './common/variables.scss';
-
+@import './fonts.scss';
+body {
+    font-family: 'Roboto', sans-serif;
+}
 @import './footer.scss';
 
 

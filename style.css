@@ -14,9 +14,16 @@
     This theme, like WordPress, is licensed under the GPL.
     Template: genesis
 */
-footer.site-footer {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.site-footer {
   background-color: "#666666";
-  color: "#ddd";
+  color: "#dddddd";
+  padding: 1em;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
