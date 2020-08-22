@@ -1,3 +1,4 @@
+
 /*
     Theme name: BaseGenesisTheme
     Theme URI: https://github.com/AlexGoiaDev/basegenesistheme.git 
@@ -14,8 +15,11 @@
     This theme, like WordPress, is licensed under the GPL.
     Template: genesis
 */
-footer.site-footer {
-  color: "#ddd";
-}
+@import './common/variables.scss';
 
-/*# sourceMappingURL=style.css.map */
+@import './footer.scss';
+
+
+
+
+

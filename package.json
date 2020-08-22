@@ -1,0 +1,24 @@
+{
+  "name": "first-theme",
+  "version": "1.0.0",
+  "description": "Basic Theme for genesis child themes",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run sass",
+    "sass":"sass --watch styles/style.scss style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexGoiaDev/basegenesistheme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexGoiaDev/basegenesistheme/issues"
+  },
+  "homepage": "https://github.com/AlexGoiaDev/basegenesistheme#readme",
+  "dependencies": {
+    "sass": "^1.26.10"
+  }
+}
