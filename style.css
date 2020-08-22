@@ -17,11 +17,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  padding: 1em;
+  margin: 0;
+  background: white;
+  color: gray;
+}
+.site-header .title-area {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.site-header .title-area .site-title {
+  margin: 0;
+}
+.site-header .title-area .site-title a {
+  color: #666666;
+  text-decoration: none;
+  font-size: 2em;
+}
+.site-header .title-area .site-description {
+  margin: 0;
+}
+
+.nav-primary {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+.nav-primary ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+}
+.nav-primary ul li {
+  list-style: none;
+}
+.nav-primary ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color: #666666;
+}
+.nav-primary ul li a:hover {
+  color: #dddddd;
+  background: #666666;
 }
 
 .site-footer {
-  background-color: "#666666";
-  color: "#dddddd";
+  background-color: #666666;
+  color: #dddddd;
   padding: 1em;
   margin: 0;
 }
