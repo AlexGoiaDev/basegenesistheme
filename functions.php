@@ -20,12 +20,10 @@ add_theme_support('genesis-responsive-viewport');
 
 function be_footer()
 {
-    echo '<footer>';
     echo '<div class="left"><p>© Copyright ' . date('Y') . ' : All Rights Reserved</p></div>';
     echo '<div class="right">';
     wp_nav_menu(array('menu' => 'Footer'));
     echo '</div>';
-    echo '</footer>';
 }
 
 remove_action('genesis_footer', 'genesis_do_footer');
